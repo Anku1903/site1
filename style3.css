@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+       background: linear-gradient(90deg,purple,blue);
+   }
+   .card{
+       box-sizing: border-box;
+       transition: .5s;
+       width: 320px;
+       background: #262626;
+       position: absolute;
+       top: 50%;
+       transform: translate(-50%,-50%);
+   
+   }
+   #ank{
+       left: 20%;
+   }
+   #an{
+       left: 45%;
+   }
+   #dh{
+       left: 70%;
+   }
+   .imgb{
+       overflow: hidden;
+       height: 400px;
+       width: 100%;
+   }
+   .imgb img{
+       transition: 2s;
+       transform-origin: top right;
+       width: 100%;
+   }
+   .card:hover .imgb img{
+       transform: scale(1.1);
+   } 
+   .card ul li{
+       list-style: none;
+       height: 50px;
+       width: 20%;
+   }
+   .card:hover ul{
+       height: 50px;
+   
+   }
+   .card ul {
+       height: 0;
+       width: 100%;
+       display: flex;
+       padding: 0;
+       margin: 0;
+       overflow: hidden;
+       transition: .5s;
+   
+   }
+   .card ul li a{
+       display: block;
+       line-height: 50px;
+       background: #fff;
+       color: #262626;
+       text-align: center;
+       font-size: 20px;
+       border-right: 1px solid rgba(0, 0, 0, .5);
+   }
+   .card ul li:last-child a{
+       border-right: none;
+   }
+   .card ul li a:hover{
+       background: #262626;
+       color: white;
+   
+   }
+   .content{
+       background: black;
+   }
+   .content h3{
+       padding: 20px 10px;
+       background: black;
+       color: #fff;
+       text-align: center;
+       font-size: 20px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   .content p{
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 15px;
+       background: black;
+       color: #fff;
+       margin: 5px 0 0;
+   }
